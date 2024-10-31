@@ -1,0 +1,97 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.modal-backdrop {
+    background-color: #BCC3D080 !important;
+    opacity: 100%;
+}
+
+.modal-close-button {
+    top: 5%;
+    position: absolute;
+    right: 30px; 
+}
+
+
+.modal-content {
+    box-shadow: 0 0 20px #0000001A;
+    border-radius: 16px;
+}
+
+.modal-header {
+    padding: 0px 0px 0 24px;
+}
+
+.modal-body {
+    padding: 20px 24px 0 24px;
+}
+
+tr {
+    font-family: Proxima Nova, serif;
+    font-weight: 500;
+    
+}
+
+td {    
+    vertical-align: top;
+    padding: 14px 0 0 0;
+    border: 0;
+}
+
+td:nth-child(n+2) {
+    padding-left: 40px;
+}
+
+.modal-title {
+    font-family: Proxima Nova, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(38, 44, 64, 1);
+}
+
+.modal-info span:not(:first-child), .modal-fields span:not(:first-child) {
+    margin-top: 14px;
+}
+
+.modal-footer {
+    padding: 40px 24px 56px 24px;
+}
+
+.modal-footer-title {
+    font-family: Proxima Nova, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.modal-footer-description {
+    color: #8189A3;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.table-data {
+    color: rgba(129, 137, 163, 1);
+}

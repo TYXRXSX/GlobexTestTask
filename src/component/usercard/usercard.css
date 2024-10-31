@@ -1,0 +1,41 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 314px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.user-card-title{
+    font-family: Proxima Nova, serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #262C40;
+}
+
+.user-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.user-card-info-item {
+    margin-bottom: 12px;
+}
+
+.user-card-info-item span {
+    margin-left: 12px;
+}
+
+span {
+    font-family: Proxima Nova, serif;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8189A3;
+}
